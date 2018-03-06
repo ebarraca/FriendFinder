@@ -20,14 +20,45 @@
       <br>
 
       <div class="text-center">
-        <a href="./public/survey.html"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Go to Survey!</button></a>
+        <a href="./survey"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Go to Survey!</button></a>
 
       </div>
 
     </div>
-
-
-
-
 </body>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+//this is where i need to finish
+
+function runFriendQuery (){
+    var currentURL = window.location.origin;
+    $.ajax({url: currentURL + "/api/friends", method: "GET"}) //this send it to back end
+
+    .done(function(friendData){
+        console.log("____________________________");
+        console.log("URL: " + currentURL + "/api/friends");
+        console.log("_____________________________");
+        console.log(friendData);
+        console.log("______________________________");
+
+        for (var i=0; i<friendData.length; i++) {
+            console.log(friendData[i]);
+
+            //write code to display the data
+        //look at screenshot; 19 minutes into the video
+
+        //use jquery to put it in the DOM maybe?
+
+        }
+    });
+}
+runFriendQuery();
+
+</script>
+
 </html>

@@ -1,14 +1,9 @@
-// Dependencies
-// =============================================================
+
 var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
 
-// ==============================================================================
-// EXPRESS CONFIGURATION
-// This sets up the basic properties for our express server
-// ==============================================================================
 
 // Tells node that we are creating an "express" server
 var app = express();
@@ -26,8 +21,8 @@ app.use(bodyParser.json());
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-require("../app/routing/api-routes.js")(app);
-require("../app/routing/html-routes.js")(app);
+require("./app/routing/api-routes.js")(app);
+require("./app/routing/html-routes.js")(app);
 
 // =============================================================================
 // LISTENER
