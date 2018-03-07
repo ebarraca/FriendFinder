@@ -10,24 +10,50 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
 
-      var scores =  [
-                    req.body.q1,
-                    req.body.q2,
-                    req.body.q3,
-                    req.body.q4,
-                    req.body.q5,
-                    req.body.q6,
-                    req.body.q7,
-                    req.body.q8,
-                    req.body.q9,
-                    req.body.q10,
-                    ]
 
-      var data = { //user input display
-          name: req.body.name,
-          image: req.body.image,
-          scores: scores
-      }
+
+      //data were sending to backend needs to be exactly the same as data were sending to friends.js
+      // but not working b/c of scores[]
+
+      //console.log req.body and make sure its exactly the same as the objects in friendArray;
+      //for loop that loops through the scores in friendsArray; add up the scores in your req.body; add up the scores from friendArray;
+
+      //subtract the scores; comparison with the least difference is your match.
+
+      // var results = {}; //this creates an object that calls out stuff from results and show on the front end
+      // var difference = 100;
+
+      //looping through the object
+
+      // var scores =  [
+      //               req.body.q1,
+      //               req.body.q2,
+      //               req.body.q3,
+      //               req.body.q4,
+      //               req.body.q5,
+      //               req.body.q6,
+      //               req.body.q7,
+      //               req.body.q8,
+      //               req.body.q9,
+      //               req.body.q10,
+      // ]
+      // var scores = req.body;
+      // console.log(scores)
+
+      var data = req.body;
+      console.log(data)
+
+      // var data = { //user input display
+      //     name: req.body.name,
+      //     image: req.body.image,
+      //     scores: scores
+      // };
+
+      // for (var i = 0; i < scores.length; i++) {
+      //     // console.log(scores)
+      // }
+
+
       friendArray.push(data)
       res.json(friendArray);
   })
