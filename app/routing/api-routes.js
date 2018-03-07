@@ -7,11 +7,36 @@ module.exports = function(app) {
   app.get("/api/friends", function(req, res) {
     res.json(friendArray);
   });
+
+  app.post("/api/friends", function(req, res) {
+
+      var scores =  [
+                    req.body.q1,
+                    req.body.q2,
+                    req.body.q3,
+                    req.body.q4,
+                    req.body.q5,
+                    req.body.q6,
+                    req.body.q7,
+                    req.body.q8,
+                    req.body.q9,
+                    req.body.q10,
+                    ]
+
+      var data = { //user input display
+          name: req.body.name,
+          image: req.body.image,
+          scores: scores
+      }
+      friendArray.push(data)
+      res.json(friendArray);
+  })
+
 };
-//
-//   app.get("/api/waitlist", function(req, res) {
-//     res.json(waitListData);
-//   });
+
+
+
+
 //
 //   // API POST Requests
 //   // Below code handles when a user submits a form and thus submits data to the server.
@@ -21,7 +46,6 @@ module.exports = function(app) {
 //   // Then the server saves the data to the tableData array)
 //   // ---------------------------------------------------------------------------
 //
-//   app.post("/api/tables", function(req, res) {
 //     // Note the code here. Our "server" will respond to requests and let users know if they have a table or not.
 //     // It will do this by sending out the value "true" have a table
 //     // req.body is available since we're using the body-parser middleware

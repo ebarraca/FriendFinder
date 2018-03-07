@@ -1,7 +1,7 @@
 var friendArray = [
 {
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "name":"Ryan",
+  "photo":"app/images/ryan.png",
   "scores":[
       5,
       1,
@@ -13,6 +13,117 @@ var friendArray = [
       5,
       4,
       1
+    ]
+},
+{
+  "name":"Brad",
+  "photo":"app/images/brad.png",
+  "scores":[
+      2,
+      2,
+      5,
+      5,
+      3,
+      4,
+      3,
+      3,
+      5,
+      3
+    ]
+},
+{
+  "name":"Barack",
+  "photo":"app/images/barack.png",
+  "scores":[
+      5,
+      3,
+      1,
+      5,
+      4,
+      1,
+      2,
+      3,
+      1,
+      3
+    ]
+},
+{
+  "name":"Ewan",
+  "photo":"app/images/ewan.png",
+  "scores":[
+      2,
+      3,
+      2,
+      4,
+      2,
+      5,
+      5,
+      4,
+      1,
+      2
+    ]
+},
+{
+  "name":"Jared",
+  "photo":"app/images/jared.png",
+  "scores":[
+      5,
+      4,
+      1,
+      4,
+      5,
+      5,
+      5,
+      5,
+      2,
+      2
+    ]
+}, {
+  "name":"Johnny",
+  "photo":"app/images/johnny.png",
+  "scores":[
+      1,
+      3,
+      5,
+      3,
+      3,
+      3,
+      2,
+      1,
+      5,
+      5
+    ]
+},
+{
+  "name":"Jon",
+  "photo":"app/images/jon.png",
+  "scores":[
+      4,
+      4,
+      4,
+      4,
+      3,
+      5,
+      5,
+      5,
+      1,
+      1
+    ]
+},
+{
+  "name":"Justin",
+  "photo":"app/images/justin.png",
+  "scores":[
+      5,
+      4,
+      2,
+      2,
+      2,
+      5,
+      3,
+      4,
+      1,
+      2
     ]
 }
 ]
