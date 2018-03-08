@@ -33,7 +33,7 @@ var friendArray = [
 },
 {
   "name":"Barack",
-  "photo":"app/images/barack.png",
+  "photo":"/images/barack.png",
   "scores":[
       5,
       3,

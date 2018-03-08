@@ -20,7 +20,7 @@ module.exports = function(app) {
           return total + Math.round(num);
       }
 
-          var leastDifferent = 0;
+          var leastDifferent = 50;
           var chosenFriend;
           var clientScore = req.body['scores[]'].reduce(getSum,0);
 
@@ -30,7 +30,7 @@ module.exports = function(app) {
              console.log(leastDifferent)
              console.log (Math.abs(clientScore - friendScore));
 
-             if (leastDifferent < Math.abs(clientScore - friendScore)) {
+             if (leastDifferent > Math.abs(clientScore - friendScore)) {
                  leastDifferent = Math.abs(clientScore - friendScore);
                  chosenFriend = friendArray[i];
 
