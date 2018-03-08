@@ -10,6 +10,40 @@ module.exports = function(app) {
 
   app.post("/api/friends", function(req, res) {
 
+      console.log(req.body);
+
+
+      // var scores = [parseInt(req.body.q1), parseInt(req.body.q2), parseInt(req.body.q3), parseInt(req.body.q4), parseInt(req.body.q5)];
+      // console.log(scores)
+
+      function getSum(total,num) {
+          return total + Math.round(num);
+      }
+
+          var leastDifferent = 0;
+          var chosenFriend;
+          var clientScore = req.body['scores[]'].reduce(getSum,0);
+
+         for (var i=0; i<friendArray.length; i++) {
+             var friendScore = friendArray[i].scores.reduce(getSum, 0);
+
+             console.log(leastDifferent)
+             console.log (Math.abs(clientScore - friendScore));
+
+             if (leastDifferent < Math.abs(clientScore - friendScore)) {
+                 leastDifferent = Math.abs(clientScore - friendScore);
+                 chosenFriend = friendArray[i];
+
+             }
+         }
+         console.log(chosenFriend)
+         friendArray.push(req.body);
+         res.json(chosenFriend);
+     })
+
+
+
+};
 
 
       //data were sending to backend needs to be exactly the same as data were sending to friends.js
@@ -40,8 +74,8 @@ module.exports = function(app) {
       // var scores = req.body;
       // console.log(scores)
 
-      var data = req.body;
-      console.log(data)
+      // var data = req.body;
+      // console.log(data)
 
       // var data = { //user input display
       //     name: req.body.name,
@@ -54,11 +88,6 @@ module.exports = function(app) {
       // }
 
 
-      friendArray.push(data)
-      res.json(friendArray);
-  })
-
-};
 
 
 
