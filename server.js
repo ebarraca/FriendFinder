@@ -4,7 +4,6 @@ var bodyParser = require("body-parser");
 var path = require("path");
 
 
-
 // Tells node that we are creating an "express" server
 var app = express();
 
@@ -15,7 +14,7 @@ var PORT = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.use(express.static("public"));
+app.use(express.static("./public"));
 
 
 // app.use(express.static("public assets"));

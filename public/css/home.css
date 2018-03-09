@@ -23,3 +23,44 @@
     background-color: #db466b;
     border: .2px solid white;
 }
+
+.header {
+    color: #db466b !important;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    font-size: 67px;
+}
+
+.survey-header {
+    color: #db466b;
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 60px !important;
+}
+
+.question-header {
+    color:#db466b;
+    font-family: 'Bungee Hairline', cursive;
+}
+
+.question {
+    color:white;
+    font-family: 'Zilla Slab', serif;
+}
+
+.container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
+
+#exampleModalLabel {
+    color: #db466b !important;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    font-size: 38px;
+
+}
+
+.friend {
+ width: 300px;
+}
