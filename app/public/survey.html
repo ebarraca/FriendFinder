@@ -5,6 +5,7 @@
   <title>Friend Finder Survey</title>
 
   <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="/css/home.css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -15,6 +16,10 @@
   <!-- Chosen -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline|Lora:400,400i|Monoton|Nixie+One" rel="stylesheet">
+
 
 </head>
 
@@ -164,18 +169,17 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Your New Friend</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
+            <p class ="friend-name"</p>
             <img class="friend"/>
-          ...
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
         </div>
       </div>
     </div>
@@ -204,9 +208,16 @@
       $.post("/api/friends", answersPush, function(data){
           console.log(data);
 
-          var photo = data.photo;
+          // var name = data.name;
+          //     $(".friend-name").text(data.name);
+          //     $('#exampleModal').modal('show');
+
+              var photo = data.photo;
               $(".friend").attr("src", photo);
+
               $('#exampleModal').modal('show');
+
+
 
           });
       })

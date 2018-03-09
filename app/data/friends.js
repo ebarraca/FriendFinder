@@ -1,7 +1,7 @@
 var friendArray = [
 {
   "name":"Ryan",
-  "photo":"app/images/ryan.png",
+  "photo":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ryan_Gosling_2_Cannes_2011_%28cropped%29.jpg/220px-Ryan_Gosling_2_Cannes_2011_%28cropped%29.jpg",
   "scores":[
       5,
       1,
@@ -17,7 +17,7 @@ var friendArray = [
 },
 {
   "name":"Brad",
-  "photo":"app/images/brad.png",
+  "photo":"https://pbs.twimg.com/media/CqWuIOqW8AAEtvU.jpg",
   "scores":[
       2,
       2,
@@ -33,9 +33,9 @@ var friendArray = [
 },
 {
   "name":"Barack",
-  "photo":"/images/barack.png",
+  "photo":"http://3.bp.blogspot.com/_ww90pQP-08Y/SaS_wXQvfNI/AAAAAAAAAjI/VeLunpbY0xI/s400/Obama1.jpeg",
   "scores":[
-      5,
+      2,
       3,
       1,
       5,
@@ -49,7 +49,7 @@ var friendArray = [
 },
 {
   "name":"Ewan",
-  "photo":"app/images/ewan.png",
+  "photo":"https://i.pinimg.com/originals/57/32/37/5732379fbc9335441c3f9fa9cf1d8eea.jpg",
   "scores":[
       2,
       3,
@@ -59,13 +59,13 @@ var friendArray = [
       5,
       5,
       4,
-      1,
-      2
+      5,
+      5
     ]
 },
 {
   "name":"Jared",
-  "photo":"app/images/jared.png",
+  "photo":"http://www.clashmusic.com/sites/default/files/field/image/CLASH105_%20InternalImage64.jpg",
   "scores":[
       5,
       4,
@@ -80,7 +80,7 @@ var friendArray = [
     ]
 }, {
   "name":"Johnny",
-  "photo":"app/images/johnny.png",
+  "photo":"http://akns-images.eonline.com/eol_images/Entire_Site/2011828/293.2depp.ls.092811.jpg",
   "scores":[
       1,
       3,
@@ -96,34 +96,34 @@ var friendArray = [
 },
 {
   "name":"Jon",
-  "photo":"app/images/jon.png",
+  "photo":"https://s-media-cache-ak0.pinimg.com/originals/49/f3/06/49f3063dd3076171a63dcd495d7cc22e.jpg",
   "scores":[
       4,
       4,
       4,
       4,
-      3,
+      4,
       5,
       5,
       5,
-      1,
-      1
+      4,
+      4
     ]
 },
 {
   "name":"Justin",
-  "photo":"app/images/justin.png",
+  "photo":"https://peopledotcom.files.wordpress.com/2018/02/justin-theroux-1.jpg",
   "scores":[
-      5,
-      4,
-      2,
-      2,
-      2,
-      5,
       3,
-      4,
-      1,
-      2
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
     ]
 }
 ]
