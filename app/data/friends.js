@@ -17,7 +17,7 @@ var friendArray = [
 },
 {
   "name":"Brad",
-  "photo":"https://www.out.com/sites/out.com/files/2018/03/09/barack_obama_out_100_profile_shot_750x422.jpg",
+  "photo":"https://s-media-cache-ak0.pinimg.com/originals/33/21/3f/33213f0345d80583ffa8820f5a8f8ba4.jpg",
   "scores":[
       2,
       2,
@@ -33,7 +33,7 @@ var friendArray = [
 },
 {
   "name":"Barack",
-  "photo":"http://3.bp.blogspot.com/_ww90pQP-08Y/SaS_wXQvfNI/AAAAAAAAAjI/VeLunpbY0xI/s400/Obama1.jpeg",
+  "photo":"https://www.out.com/sites/out.com/files/2018/03/09/barack_obama_out_100_profile_shot_750x422.jpg",
   "scores":[
       2,
       3,
