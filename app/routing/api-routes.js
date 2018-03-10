@@ -24,6 +24,9 @@ module.exports = function(app) {
           var chosenFriend;
           var clientScore = req.body['scores[]'].reduce(getSum,0);
 
+           console.log(req.body.scores);
+           console.log(req.body['scores[]'])
+
          for (var i=0; i<friendArray.length; i++) {
              var friendScore = friendArray[i].scores.reduce(getSum, 0);
 

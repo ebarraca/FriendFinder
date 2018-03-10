@@ -1,13 +1,17 @@
 .jumbotron{
    background-color: #202836 !important ;
 
-   /* background-image: url('https://images.unsplash.com/photo-1505906690561-4dc7060250b6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=17543f450e39b9065a8378242768570d&auto=format&fit=crop&w=800&q=60'); */
+   /* background-image: url('https://images.unsplash.com/photo-1493759919241-ba9c01724a60?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e61ffbc928787493bc30421ae36d5137&auto=format&fit=crop&w=2102&q=80'); */
+   /* background-size: cover;
+   background-repeat: no-repeat; */
+
    font-family: 'Bungee Hairline', cursive;
    /* opacity: 0.2; */
    color: white;
    margin-top: 40px;
    /* font-weight: 500; */
    text-align: center;
+   margin-left:0;
 }
 
 
@@ -28,7 +32,7 @@
     color: #db466b !important;
     font-family: 'Bungee Hairline', cursive;
     font-weight: bold;
-    font-size: 67px;
+    /* font-size: 67px; */
 }
 
 .survey-header {
@@ -57,10 +61,33 @@
     color: #db466b !important;
     font-family: 'Bungee Hairline', cursive;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 49px;
+
+}
+
+.modal-header {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.modal-btn{
+    background-color: #db466b;
+    color: white;
+    width: 100px;
+    margin-right: 15px;
+    font-family: 'Bungee Hairline', cursive;
+
 
 }
 
 .friend {
  width: 300px;
+ margin-left: 20px;
+ text-align: center;
 }
+
+.friend-name {
+    font-size: 33px;
+    font-family: 'Zilla Slab', serif;
+    color:#202836;
+    margin-bottom: 0;

@@ -17,7 +17,7 @@ var friendArray = [
 },
 {
   "name":"Brad",
-  "photo":"https://pbs.twimg.com/media/CqWuIOqW8AAEtvU.jpg",
+  "photo":"https://www.out.com/sites/out.com/files/2018/03/09/barack_obama_out_100_profile_shot_750x422.jpg",
   "scores":[
       2,
       2,
@@ -64,8 +64,8 @@ var friendArray = [
     ]
 },
 {
-  "name":"Jared",
-  "photo":"http://www.clashmusic.com/sites/default/files/field/image/CLASH105_%20InternalImage64.jpg",
+  "name":"Lemmy",
+  "photo":"https://images2.laweekly.com/imager/lemmy/u/original/2159410/3306691.t.jpg",
   "scores":[
       5,
       4,
@@ -79,19 +79,19 @@ var friendArray = [
       2
     ]
 }, {
-  "name":"Johnny",
-  "photo":"http://akns-images.eonline.com/eol_images/Entire_Site/2011828/293.2depp.ls.092811.jpg",
+  "name":"Henry",
+  "photo":"https://www.irishtimes.com/polopoly_fs/1.2483244.1451732179!/image/image.jpg_gen/derivatives/box_620_330/image.jpg",
   "scores":[
-      1,
-      3,
-      5,
       3,
       3,
       3,
-      2,
-      1,
-      5,
-      5
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
     ]
 },
 {
@@ -111,19 +111,19 @@ var friendArray = [
     ]
 },
 {
-  "name":"Justin",
-  "photo":"https://peopledotcom.files.wordpress.com/2018/02/justin-theroux-1.jpg",
+  "name":"Adam",
+  "photo":"https://static1.squarespace.com/static/57d9dfcbb3db2bce990171da/57eee592e58c621a29863ff6/57eee592197aeaadfd195c88/1475274134574/Adam-Driver-websitemay-15.jpg",
   "scores":[
+      1,
+      3,
+      5,
       3,
       3,
       3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3
+      2,
+      1,
+      5,
+      5
     ]
 }
 ]
