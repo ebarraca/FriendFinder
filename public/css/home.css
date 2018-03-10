@@ -20,13 +20,11 @@ hr {
     vertical-align: left;
     margin-left:0;
 }
-.hr2 {
-    width: 100% !important;
-    vertical-align: none;
-    color:red;
 
-
+.modal-line {
+    width: 100%
 }
+
 
 .subhead {
     font-size: 20px;
@@ -36,10 +34,6 @@ hr {
     letter-spacing: .7px;
 }
 
-.btn  {
-    background-color: #db466b;
-    border: .2px solid white;
-}
 
 .header {
     color: #db466b !important;
@@ -95,14 +89,35 @@ margin-left: 100px;
  margin-left: 20px;
  text-align: center;
 }
-a {
-    background-color: white;
-    color: pink;
-}
+
 
 .friend-name {
     font-size: 33px;
     font-family: 'Zilla Slab', serif;
     color:#202836;
     margin-bottom: 0;
- {
+}
+
+/* .submit-btn: hover {
+    background-color: white;
+    color: #db466b;
+    font-style: bold;
+} */
+
+.btn:hover {
+    background-color: white;
+    color: #db466b;
+    font-style: bold;
+}
+/*
+.btn-primary:active {
+   background-color: white;
+   color: pink;
+}  */
+
+.btn  {
+    background-color: #db466b;
+    border: .2px solid white;
+    width: 200px;
+    font-family: 'Bungee Hairline', cursive;
+}
