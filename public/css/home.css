@@ -20,6 +20,13 @@ hr {
     vertical-align: left;
     margin-left:0;
 }
+.hr2 {
+    width: 100% !important;
+    vertical-align: none;
+    color:red;
+
+
+}
 
 .subhead {
     font-size: 20px;
