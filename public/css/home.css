@@ -21,6 +21,8 @@ hr {
     margin-left:0;
 }
 
+.hr { width: 100% }
+
 .modal-line {
     width: 100%
 }
